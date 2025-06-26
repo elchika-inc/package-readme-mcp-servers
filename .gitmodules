@@ -1,0 +1,48 @@
+[submodule "vcpkg-package-readme-mcp-server"]
+	path = vcpkg-package-readme-mcp-server
+	url = https://github.com/elchika-inc/vcpkg-package-readme-mcp-server
+[submodule "swift-package-readme-mcp-server"]
+	path = swift-package-readme-mcp-server
+	url = https://github.com/elchika-inc/swift-package-readme-mcp-server
+[submodule "pip-package-readme-mcp-server"]
+	path = pip-package-readme-mcp-server
+	url = https://github.com/elchika-inc/pip-package-readme-mcp-server
+[submodule "package-readme-core-mcp-server"]
+	path = package-readme-core-mcp-server
+	url = https://github.com/elchika-inc/package-readme-core-mcp-server
+[submodule "nuget-package-readme-mcp-server"]
+	path = nuget-package-readme-mcp-server
+	url = https://github.com/elchika-inc/nuget-package-readme-mcp-server
+[submodule "npm-package-readme-mcp-server"]
+	path = npm-package-readme-mcp-server
+	url = https://github.com/elchika-inc/npm-package-readme-mcp-server
+[submodule "helm-package-readme-mcp-server"]
+	path = helm-package-readme-mcp-server
+	url = https://github.com/elchika-inc/helm-package-readme-mcp-server
+[submodule "maven-package-readme-mcp-server"]
+	path = maven-package-readme-mcp-server
+	url = https://github.com/elchika-inc/maven-package-readme-mcp-server
+[submodule "gem-package-readme-mcp-server"]
+	path = gem-package-readme-mcp-server
+	url = https://github.com/elchika-inc/gem-package-readme-mcp-server
+[submodule "docker-hub-readme-mcp-server"]
+	path = docker-hub-readme-mcp-server
+	url = https://github.com/elchika-inc/docker-hub-readme-mcp-server
+[submodule "cran-package-readme-mcp-server"]
+	path = cran-package-readme-mcp-server
+	url = https://github.com/elchika-inc/cran-package-readme-mcp-server
+[submodule "cpan-package-readme-mcp-server"]
+	path = cpan-package-readme-mcp-server
+	url = https://github.com/elchika-inc/cpan-package-readme-mcp-server
+[submodule "composer-package-readme-mcp-server"]
+	path = composer-package-readme-mcp-server
+	url = https://github.com/elchika-inc/composer-package-readme-mcp-server
+[submodule "cocoapods-package-readme-mcp-server"]
+	path = cocoapods-package-readme-mcp-server
+	url = https://github.com/elchika-inc/cocoapods-package-readme-mcp-server
+[submodule "cargo-package-readme-mcp-server"]
+	path = cargo-package-readme-mcp-server
+	url = https://github.com/elchika-inc/cargo-package-readme-mcp-server
+[submodule "conan-package-readme-mcp-server"]
+	path = conan-package-readme-mcp-server
+	url = https://github.com/elchika-inc/conan-package-readme-mcp-server

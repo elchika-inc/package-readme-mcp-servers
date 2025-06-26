@@ -2,6 +2,8 @@
   "name": "package-readme-mcp-servers",
   "version": "1.0.0",
   "description": "Collection of MCP servers for various package managers",
+  "author": "naoto24kawa",
+  "license": "MIT",
   "workspaces": [
     "cargo-package-readme-mcp-server",
     "cocoapods-package-readme-mcp-server",
@@ -17,13 +19,31 @@
     "nuget-package-readme-mcp-server",
     "package-readme-core-mcp-server",
     "pip-package-readme-mcp-server",
-    "shared-base",
     "swift-package-readme-mcp-server",
-    "vcpkg-package-readme-mcp-server"
+    "vcpkg-package-readme-mcp-server",
+    "shared"
   ],
-  "author": "naoto24kawa",
-  "license": "MIT",
+  "scripts": {
+    "build:all": "concurrently \"npm:build:*\"",
+    "build:cargo": "cd cargo-package-readme-mcp-server && npm run build",
+    "build:cocoapods": "cd cocoapods-package-readme-mcp-server && npm run build",
+    "build:composer": "cd composer-package-readme-mcp-server && npm run build",
+    "build:conan": "cd conan-package-readme-mcp-server && npm run build",
+    "build:cpan": "cd cpan-package-readme-mcp-server && npm run build",
+    "build:cran": "cd cran-package-readme-mcp-server && npm run build",
+    "build:docker-hub": "cd docker-hub-readme-mcp-server && npm run build",
+    "build:gem": "cd gem-package-readme-mcp-server && npm run build",
+    "build:helm": "cd helm-package-readme-mcp-server && npm run build",
+    "build:maven": "cd maven-package-readme-mcp-server && npm run build",
+    "build:npm": "cd npm-package-readme-mcp-server && npm run build",
+    "build:nuget": "cd nuget-package-readme-mcp-server && npm run build",
+    "build:core": "cd package-readme-core-mcp-server && npm run build",
+    "build:pip": "cd pip-package-readme-mcp-server && npm run build",
+    "build:swift": "cd swift-package-readme-mcp-server && npm run build",
+    "build:vcpkg": "cd vcpkg-package-readme-mcp-server && npm run build",
+    "build:shared": "cd shared && npm run build"
+  },
   "devDependencies": {
-    "concurrently": "^9.1.2"
+    "concurrently": "^9.2.0"
   }
 }

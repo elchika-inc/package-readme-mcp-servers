@@ -228,5 +228,6 @@ lerna-debug.log*
 
 # etc
 __docs__
+CLAUDE.md
 .claude
 .vscode
