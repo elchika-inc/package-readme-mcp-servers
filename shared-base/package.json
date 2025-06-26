@@ -3,15 +3,13 @@
   "version": "1.0.0",
   "description": "Shared utilities for package README MCP servers",
   "type": "module",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
     "clean": "rm -rf dist",
-    "test": "bun test"
+    "test": "vitest run"
   },
-  "keywords": ["mcp", "utilities", "shared", "base"],
+  "private": true,
   "author": "elchika-inc",
   "license": "MIT",
   "devDependencies": {
