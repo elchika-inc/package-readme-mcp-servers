@@ -21,7 +21,7 @@
     "swift-package-readme-mcp-server",
     "vcpkg-package-readme-mcp-server"
   ],
-  "author": "naoto24kawa",
+  "author": "elchika-inc",
   "license": "MIT",
   "devDependencies": {
     "concurrently": "^9.1.2"
