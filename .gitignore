@@ -1,0 +1,232 @@
+# ===========================
+# Node.js & npm
+# ===========================
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# ===========================
+# TypeScript & Build
+# ===========================
+
+# TypeScript compiled output
+dist/
+**/dist/
+build/
+**/build/
+
+# TypeScript cache
+*.tsbuildinfo
+.rts2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Rollup cache
+.rollup.cache
+
+# ===========================
+# Testing & Coverage
+# ===========================
+
+# Coverage directory used by tools like istanbul
+coverage
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Jest
+jest-cache/
+
+# Test output
+test-results/
+test-reports/
+
+# ===========================
+# Environment & Config
+# ===========================
+
+# Environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+.env.*.local
+
+# API keys and tokens
+secrets/
+*.key
+*.pem
+
+# MCP Server specific config
+mcp-servers.local.json
+
+# ===========================
+# Development Tools
+# ===========================
+
+# IDE
+.vscode/
+.idea/
+
+# Editor files
+*.swp
+*.swo
+*~
+*.bak
+*.orig
+*.rej
+
+# Editor backup files
+.history/
+
+# ===========================
+# OS Generated Files
+# ===========================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.fseventsd
+.spotlight-v100
+.trashes
+.volumeicon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ===========================
+# Cache & Temporary
+# ===========================
+
+# General cache
+.cache
+.parcel-cache
+
+# Temporary folders
+tmp/
+temp/
+.workspace-tmp/
+
+# ===========================
+# Package Managers
+# ===========================
+
+# Bun
+bun.lock
+
+# Uncomment to exclude lockfiles (not recommended for production)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# ===========================
+# Development Databases
+# ===========================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# ===========================
+# Debugging & Profiling
+# ===========================
+
+# Debugging
+*.cpuprofile
+*.heapsnapshot
+
+# Performance monitoring
+.clinic/
+
+# ===========================
+# Documentation
+# ===========================
+
+# Generated documentation
+docs/api/
+docs/coverage/
+
+# ===========================
+# Monorepo Specific
+# ===========================
+
+# Workspace specific
+.workspace-state
+
+# Build artifacts
+**/dist/
+**/build/
+**/*.tsbuildinfo
+
+# Lerna
+lerna-debug.log*
+
+# ===========================
+# Misc
+# ===========================
+
+# Dependency cruiser
+.dependency-cruiser.json
+
+# Size-limit
+.size-limit.json
+
+# Runtime type checking
+.rts2_cache*
+
+# etc
+__docs__
+.claude
+.vscode

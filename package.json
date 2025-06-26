@@ -1,0 +1,29 @@
+{
+  "name": "package-readme-mcp-servers",
+  "version": "1.0.0",
+  "description": "Collection of MCP servers for various package managers",
+  "workspaces": [
+    "cargo-package-readme-mcp-server",
+    "cocoapods-package-readme-mcp-server",
+    "composer-package-readme-mcp-server",
+    "conan-package-readme-mcp-server",
+    "cpan-package-readme-mcp-server",
+    "cran-package-readme-mcp-server",
+    "docker-hub-readme-mcp-server",
+    "gem-package-readme-mcp-server",
+    "helm-package-readme-mcp-server",
+    "maven-package-readme-mcp-server",
+    "npm-package-readme-mcp-server",
+    "nuget-package-readme-mcp-server",
+    "package-readme-core-mcp-server",
+    "pip-package-readme-mcp-server",
+    "shared-base",
+    "swift-package-readme-mcp-server",
+    "vcpkg-package-readme-mcp-server"
+  ],
+  "author": "naoto24kawa",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

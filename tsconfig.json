@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "sourceMap": true,
+    "resolveJsonModule": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "**/*.test.ts",
+    "**/*.spec.ts"
+  ],
+  "references": [
+    { "path": "./cargo-package-readme-mcp-server" },
+    { "path": "./cocoapods-package-readme-mcp-server" },
+    { "path": "./composer-package-readme-mcp-server" },
+    { "path": "./conan-package-readme-mcp-server" },
+    { "path": "./cpan-package-readme-mcp-server" },
+    { "path": "./cran-package-readme-mcp-server" },
+    { "path": "./docker-hub-readme-mcp-server" },
+    { "path": "./gem-package-readme-mcp-server" },
+    { "path": "./helm-package-readme-mcp-server" },
+    { "path": "./maven-package-readme-mcp-server" },
+    { "path": "./npm-package-readme-mcp-server" },
+    { "path": "./nuget-package-readme-mcp-server" },
+    { "path": "./package-readme-core-mcp-server" },
+    { "path": "./pip-package-readme-mcp-server" },
+    { "path": "./swift-package-readme-mcp-server" },
+    { "path": "./vcpkg-package-readme-mcp-server" }
+  ]
+}
