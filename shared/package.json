@@ -1,8 +1,10 @@
 {
   "name": "@elchika-inc/package-readme-shared",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Shared utilities for package README MCP servers",
   "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
@@ -13,12 +15,14 @@
   "author": "elchika-inc",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^5.5.0",
-    "@types/node": "^22.0.0",
+    "typescript": "^5.8.3",
+    "@types/node": "^24.0.4",
     "vitest": "^3.2.4",
-    "@vitest/ui": "^3.2.4"
+    "@vitest/ui": "^3.2.4",
+    "zod": "^3.24.1"
   },
   "peerDependencies": {
-    "@modelcontextprotocol/sdk": "^0.6.1"
+    "@modelcontextprotocol/sdk": "^1.13.2",
+    "zod": "^3.24.1"
   }
 }

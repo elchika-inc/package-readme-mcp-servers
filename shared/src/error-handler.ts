@@ -44,7 +44,7 @@ export function handleHttpError(status: number, response: Response, context: str
     case 429: {
       const retryAfter = response.headers.get('retry-after');
       const retryAfterSeconds = retryAfter ? parseInt(retryAfter, 10) : undefined;
-      throw new RateLimitError(context, retryAfterSeconds);
+      throw new RateLimitError(retryAfterSeconds, context);
     }
     case 500:
     case 502:

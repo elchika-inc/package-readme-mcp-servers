@@ -24,6 +24,10 @@ export interface ServerConfig {
   silent?: boolean;
 }
 
+/**
+ * @deprecated Use the new MCPRequestHandler and ToolExecutor pattern instead.
+ * This class will be removed in a future version.
+ */
 export abstract class BasePackageServer {
   protected server: Server;
   protected logger = createLogger({ silent: true });
@@ -39,6 +43,8 @@ export abstract class BasePackageServer {
       {
         capabilities: {
           tools: {},
+          resources: {},
+          prompts: {},
         },
       }
     );
@@ -110,5 +116,10 @@ export abstract class BasePackageServer {
     const transport = new StdioServerTransport();
     await this.server.connect(transport);
     this.logger.info(`${this.config.name} running on stdio`);
+  }
+
+  async stop(): Promise<void> {
+    await this.server.close();
+    this.logger.info(`${this.config.name} stopped`);
   }
 }
