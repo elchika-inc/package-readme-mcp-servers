@@ -24,7 +24,7 @@
     "shared"
   ],
   "scripts": {
-    "build:all": "concurrently \"npm:build:*\"",
+    "build:all": "npm run build:shared && concurrently --max-processes 4 \"npm:build:cargo\" \"npm:build:cocoapods\" \"npm:build:composer\" \"npm:build:conan\" \"npm:build:cpan\" \"npm:build:cran\" \"npm:build:docker-hub\" \"npm:build:gem\" \"npm:build:helm\" \"npm:build:maven\" \"npm:build:npm\" \"npm:build:nuget\" \"npm:build:pip\" \"npm:build:swift\" \"npm:build:vcpkg\" && npm run build:core",
     "build:cargo": "cd cargo-package-readme-mcp-server && npm run build",
     "build:cocoapods": "cd cocoapods-package-readme-mcp-server && npm run build",
     "build:composer": "cd composer-package-readme-mcp-server && npm run build",
